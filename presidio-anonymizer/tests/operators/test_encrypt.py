@@ -64,3 +64,14 @@ from presidio_anonymizer.operators import OperatorType
 def test_operator_type():
     test = Encrypt()
     assert test.operator_type() == OperatorType.Anonymize
+
+@pytest.mark.parametrize("key", [
+    ("1234567890123456"), #128 bit string = 16 char
+    ("123456789012345678901234"), #192 bit string = 24 char
+    ("12345678901234567890123456789012"), #256 bit string = 32 char
+    (b'1010101010101010'), #128 in binary
+    (b'101010101010101010101010'), #192 in binary
+    (b'10101010101010101010101010101010'), #256 in binary
+    ])
+def test_valid_keys(key):
+    assert Encrypt().validate(params = {"key": key}) == None
