@@ -1,5 +1,12 @@
 Branches in this repo (with details):
 
+- dependabot/docker/presidio-anonymizer/python-3.14-windowsservercore
+  SHA: 28610a2b0fa5d130ae68b1ea164d689f317957f1
+  Commits: 3
+  Recent commits:
+    28610a2 | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-18T16:36:18Z | Bump python in /presidio-anonymizer
+    6c02a73 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-18T16:35:42Z | Auto-update branch-info.txt
+    e6de64c | Author: James Wong <90537826+JamesTLWong@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-18T12:35:31-04:00 | Initial commit
 - dependabot/github_actions/actions/checkout-5
   SHA: 045c0ca6c957854d116af93fbd0792f5fa64b8c1
   Commits: 3
@@ -8,8 +15,9 @@ Branches in this repo (with details):
     6c02a73 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-18T16:35:42Z | Auto-update branch-info.txt
     e6de64c | Author: James Wong <90537826+JamesTLWong@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-18T12:35:31-04:00 | Initial commit
 - main
-  SHA: 6c02a73d4bb69f56de8aa752616e1ae59a6ee43c
-  Commits: 2
+  SHA: 2456d5f6b0157aed300c3cdc71deceb65fd15ba1
+  Commits: 3
   Recent commits:
+    2456d5f | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-18T16:36:12Z | Auto-update branch-info.txt
     6c02a73 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-18T16:35:42Z | Auto-update branch-info.txt
     e6de64c | Author: James Wong <90537826+JamesTLWong@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-18T12:35:31-04:00 | Initial commit
